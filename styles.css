@@ -6,3 +6,22 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+button {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+#screen {
+    display: flex;
+    height: 50px;
+    width: 175px;
+    border: 1px solid black;
+}
+#clear {
+    margin-left: 15px;
+}

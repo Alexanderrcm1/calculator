@@ -11,6 +11,20 @@ button {
     height: 50px;
     width: 50px;
     margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.values {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+#previousValue {
+    font-size: 15px;
+}
+#currentValue {
+    font-size: 23px;
 }
 .row1 {
     display: flex;
@@ -21,7 +35,43 @@ button {
     height: 50px;
     width: 175px;
     border: 1px solid black;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
 }
 #clear {
     margin-left: 15px;
+}
+
+.number {
+    background-color: white;
+}
+.number:hover {
+    background-color: beige;
+    width: 52px;
+    height: 52px;
+}
+
+.operator:hover {
+    background-color: dimgrey;
+    width: 52px;
+    height: 52px;
+}
+
+#clear:hover {
+    background-color: dimgrey;
+    width: 52px;
+    height: 52px;
+}
+
+#decimal:hover {
+    background-color: dimgrey;
+    width: 52px;
+    height: 52px;
+}
+
+#equal:hover {
+    background-color: dimgrey;
+    width: 52px;
+    height: 52px;
 }

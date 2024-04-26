@@ -14,16 +14,16 @@ button {
     border: 1px solid black;
     border-radius: 5px;
 }
-.values {
+.screenValues {
     display: flex;
     justify-content: end;
     align-items: end;
     flex-direction: column;
 }
-#previousValue {
+#previousScreen {
     font-size: 15px;
 }
-#currentValue {
+#currentScreen {
     font-size: 23px;
 }
 .row1 {
@@ -46,6 +46,7 @@ button {
 .number {
     background-color: white;
 }
+
 .number:hover {
     background-color: beige;
     width: 52px;
